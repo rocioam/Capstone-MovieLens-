@@ -577,4 +577,6 @@ With the userId and modelId variables, followed by a regularization process, to 
 
 
 ##7. Personal Comments
-Some comments about this project. I liked very much doing it, playing with the data and the graphs, to explore and put into this project all the hard work done on the past few months. When I started with this whole Data Science course, I didn't even know how to install Rstudio, and now I'm so proud that I am able to write a whole report, do some analysis on the data and finally create a Recommendation System, and even more, try to improve its RMSE. Thank you all and I hope you enjoyed this report!
+Some comments I wanted to write about this project. I liked very much doing it, playing with the data and the graphs, to explore and put into this project all the hard work done on the past few months. When I started with this whole Data Science course, I didn't even know how to install Rstudio, and now I'm so proud that I am able to write a whole report, do some analysis on the data and finally create a Recommendation System, and even more, try to improve its RMSE. Thank you all and I hope you enjoyed this report!
+
+### GitHub repo: https://github.com/rocioam/Capstone-MovieLens-
