@@ -1,3 +1,7 @@
+# GitHub repo: https://github.com/rocioam/Capstone-MovieLens-
+# SECTION 1, INTRO
+#-none-
+
 # SECTION 2, CAPSTONE GIVEN CODE
 
 #############################################################
