@@ -1,6 +1,6 @@
 ---
 title: "Data Science: Capstone - MovieLens Project"
-author: "RocÃ­o Alvarez MercÃ©"
+author: "Rocío Alvarez Mercé"
 date: "April 2019"
 output: pdf_document
 ---
@@ -540,7 +540,8 @@ rmses_validation <- sapply(lambdas_validation, function(l){
 We create a dataframe with all the lambda values and their respective RMSEs and we plot it, as we did for the edx set.
 
 ```{r}
-lambdas_validation_df <- data.frame(Validation_Lambda_values = lambdas, Validation_RMSES = rmses)
+lambdas_validation_df <- data.frame(Validation_Lambda_values = lambdas_validation, 
+                                    Validation_RMSES = rmses_validation)
 
 ggplot(lambdas_validation_df, aes(x = Validation_Lambda_values, y = Validation_RMSES)) + 
       geom_point(size = 2, shape = 22, color = "darkblue") +
@@ -577,6 +578,6 @@ With the userId and modelId variables, followed by a regularization process, to 
 
 
 ##7. Personal Comments
-Some comments I wanted to write about this project. I liked very much doing it, playing with the data and the graphs, to explore and put into this project all the hard work done on the past few months. When I started with this whole Data Science course, I didn't even know how to install Rstudio, and now I'm so proud that I am able to write a whole report, do some analysis on the data and finally create a Recommendation System, and even more, try to improve its RMSE. Thank you all and I hope you enjoyed this report!
+Some comments I wanted to write about this project: I liked very much doing it, playing with the data and the graphs, to explore and put into this project all the hard work done on the past few months. When I started with this whole Data Science course, I didn't even know how to install Rstudio, and now I'm so proud that I am able to write a whole report, do some analysis on the data and finally create a Recommendation System, and even more, try to improve its RMSE. Thank you all and I hope you enjoyed this report!
 
 ### GitHub repo: https://github.com/rocioam/Capstone-MovieLens-

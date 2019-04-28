@@ -1,5 +1,6 @@
 # GitHub repo: https://github.com/rocioam/Capstone-MovieLens-
-# SECTION 1, INTRO
+
+# SECTION 1, INTRODUCTION
 #-none-
 
 # SECTION 2, CAPSTONE GIVEN CODE
@@ -309,7 +310,8 @@ rmses_validation <- sapply(lambdas_validation, function(l){
 
 
 # Validation Lambda optimization for Regularization method
-lambdas_validation_df <- data.frame(Validation_Lambda_values = lambdas, Validation_RMSES = rmses)
+lambdas_validation_df <- data.frame(Validation_Lambda_values = lambdas_validation, 
+                                    Validation_RMSES = rmses_validation)
 
 ggplot(lambdas_validation_df, aes(x = Validation_Lambda_values, y = Validation_RMSES)) + 
   geom_point(size = 2, shape = 22, color = "darkblue") +
@@ -336,3 +338,5 @@ final_RMSE <- min(rmses_validation)
 final_RMSE
 
 print(paste0("Final RMSE Value obtained for the validation set with the Movie + User Effects Model with Regularization Method: ", final_RMSE))
+#"Final RMSE Value obtained for the validation set with the Movie + 
+#User Effects Model with Regularization Method: 0.865722399226163"
